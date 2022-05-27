@@ -8,9 +8,9 @@ const ingredients = [
 ];
 
 const  ingredientsRef = ingredients.map(item => {
-  const liRef = document.createElement('li');
-  liRef.classList.add('item');
-  liRef.textContent = item;
+  const li = document.createElement('li');
+  li.classList.add('item');
+  li.textContent = item;
   return liRef;
 })
 
