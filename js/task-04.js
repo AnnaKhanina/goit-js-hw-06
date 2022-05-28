@@ -2,7 +2,7 @@ const refs = {
     decrementBtn: document.querySelector('[data-action="decrement"]'),
     incrementBtn: document.querySelector('[data-action="increment"]'),
     value: document.querySelector('#value'),
-}
+};
 
 let counterValue = Number.parseInt(refs.value.textContent) || 0;
 
